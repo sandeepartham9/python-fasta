@@ -1,3 +1,6 @@
+
+import sys
+
 def read_fasta(filename):
     """
     Read in a file in FASTA format
@@ -10,6 +13,7 @@ def read_fasta(filename):
             seq = seq + line #only keep the line if it's not an identifier line that begins with '>'
     f.close()
     return seq
-print(read_fasta('ae.fa'))
+print(read_fasta(sys.argv[1]))
+
 
 
