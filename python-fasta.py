@@ -1,5 +1,5 @@
 
-import says
+import sys
 
 def read_fasta(filename):
     """
