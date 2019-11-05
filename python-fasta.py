@@ -12,4 +12,4 @@ def read_fasta(filename):
     return seq
 print(read_fasta('ae.fa'))
 
-#this is a comment
+
